@@ -1,0 +1,14 @@
+name: Example Workflow
+parameters:
+  input_path:
+    description: Path to input data
+    default: /data/input
+    type: string
+  output_path:
+    description: Path to output directory
+    default: /data/output
+    type: string
+  threads:
+    description: Number of threads to use
+    default: 4
+    type: integer
